@@ -1,0 +1,70 @@
+{
+    max-width: 100%;
+    padding: 0PX;
+    margin: 0PX;
+}
+
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-Serif;
+}
+
+#container{
+    width: 1100px;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+header{
+    background: rgb(238, 47, 47);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(255, 251, 16);
+    border-bottom: 2px solid white;
+}
+  
+   nav{
+       background: rgb(76, 241, 241);
+       height: 50px;
+       border bottom: 1px solid black;
+   }
+
+   nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+   }
+
+   .clearfix{
+        claer: both;
+   }
+
+   #content{
+    float: left;
+    width:80%;
+    background: rgb(36, 170, 36);
+    min-height: 470px;
+   }
+
+   aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: rgb(251, 255, 0);
+    min-height: 400px;
+    padding: 10px;
+   }
+
+   .article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid white;
+
+   }
+
+   .article h2{
+       font-size: 23px;
+   }
